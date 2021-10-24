@@ -7,7 +7,7 @@ This is tutorial of Shell script.
 ![UseCaseFigure](lib/usecase.png)
 
 ## How to use?
-clone this, and run ``` $ bash scripts/main.sh```  
+clone this, and run ``` $ EXEC_LANG=shell bash scripts/main.sh``` 
 ex)  
   ```
   $ bash scripts/main.sh
@@ -23,6 +23,8 @@ ex)
     - search.sh
 2. Translate search.sh to python code.  
    You can just fill the blank in search.py.
+   try to write python code, and run ``` $ EXEC_LANG=python bash scripts/main.sh```
+3. (optional) Save the search result in json file.
 
 
 ## References
